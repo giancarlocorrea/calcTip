@@ -1,0 +1,96 @@
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
+
+:root {
+  --primary-color: #add8e6;
+  --secondary-color: #696969;
+  --tertiary-color: #dcdcdc;
+}
+body {
+  background-color: var(--primary-color);
+  font-size: 1rem;
+  font-family: 'Poppins', sans-serif;
+  width: 35rem;
+  margin: auto;
+  border-radius: 2rem;
+}
+
+#container {
+  height: 35rem;
+  width: 25rem;
+  margin: 3rem auto;
+  background: #f7f7f7;
+  box-shadow: 0.5rem 0.5rem 0.5rem var(--tertiary-color);
+  border-radius: 2rem;
+}
+
+.title {
+  background: var(--tertiary-color);
+  color: var(--secondary-color);
+  padding: 1.5rem;
+  text-transform: uppercase;
+  font-size: 1.3rem;
+  font-weight: 500;
+  border-top-left-radius: 1rem;
+  border-top-right-radius: 1rem;
+  text-align: center;
+}
+
+.tipsForm {
+  padding-left: 2rem;
+  padding-right: 2rem;
+}
+
+.formInput {
+  background: #ffffff;
+  width: 4rem;
+  padding: 0.4rem 0.4rem 0.5rem 0.5rem;
+  border-radius: 0.2rem;
+}
+
+.formInput#bill {
+  width: 4rem;
+}
+
+.formInput:focus {
+  border: 0.2rem solid var(--primary-color);
+  outline: none;
+}
+
+.formSelect {
+  width: 12rem;
+  padding: 0.5rem;
+  font-size: 0.9rem;
+}
+
+.formSubmit {
+  text-transform: uppercase;
+  justify-content: center;
+  font-weight: 700;
+  display: block;
+  margin-inline: auto;
+  background-color: #41869c;
+  border-radius: 20px;
+  width: 200px;
+  height: 50px;
+  font-size: 17px;
+  color: #ffffff;
+
+  margin-top: 2rem;
+}
+
+.formSubmit:hover {
+  filter: brightness(1.2);
+}
+
+.tipsForm #totalTip {
+  padding: 1rem;
+  display: flex;
+  flex-direction: row;
+  align-items: baseline;
+  justify-content: center;
+  gap: 0.5rem;
+}
+
+.tipsForm #totalTip #tip {
+  font-size: 2rem;
+}
